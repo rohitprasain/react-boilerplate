@@ -9,6 +9,7 @@ const HomePage = () => {
     const [productName, serProductName] = useState("");
     const [productPrice, serProductPrice] = useState("");
     const [productList,setProductList]= useState([]);
+   
 
     const getProductList = async ()=>{
     const response = await axios.get("http://localhost:8000/product").then((response)=>response.data).catch((error)=> console.log(error));
@@ -18,7 +19,7 @@ const HomePage = () => {
 
     const postProduct = async () =>{
       if(productUrl==="" || productName==="" || productPrice===""){
-        alert("Please Enter a Data")
+        alert("Please hello a Data")
       }else{
         const data ={
           productUrl: productUrl,
