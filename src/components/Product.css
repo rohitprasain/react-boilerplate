@@ -1,0 +1,16 @@
+.product img{
+    width: 100px;
+}
+
+.product{
+    background-color: yellow;
+    margin: 10px 20px;
+    padding: 20px;
+    
+}
+
+.icon{
+    margin: 0 8px;
+    font-size: 20px;
+    color: red;
+}
