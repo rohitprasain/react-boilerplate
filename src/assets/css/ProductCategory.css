@@ -1,0 +1,21 @@
+.category-items{
+    height: 256px;
+    width: 300px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 20px 30px;
+
+}
+
+.category-items div{
+    color: black;
+    background-color: white;
+    padding: 10px 40px;
+   
+}
+
+.category-items div h2{
+    text-transform: capitalize;
+}

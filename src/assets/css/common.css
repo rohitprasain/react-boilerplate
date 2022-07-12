@@ -1,0 +1,98 @@
+.flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+.space-between{
+ justify-content: space-between;
+}
+
+.mx-1{
+    margin-left: 10x;
+    margin-right: 10x;
+}
+
+.mx-5{
+    margin-left: 50x;
+    margin-right: 50x;
+}
+.mx-2{
+    margin-left: 20x;
+    margin-right: 20x;
+}
+.mx-3{
+    margin-left: 30x;
+    margin-right: 30x;
+}
+.mx-4{
+    margin-left:40x;
+    margin-right: 40x;
+}
+
+.px-1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.px-2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.px-3{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.px-4{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.px-5{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.px-6{
+    padding-left:60px;
+    padding-right: 60px;
+}
+.px-7{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.px-9{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.a-decoration-none{
+    text-decoration: none;
+    color: black;
+}
+
+.py-5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.py-4{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.py-3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.text-capital{
+    text-transform: uppercase;
+}
+
