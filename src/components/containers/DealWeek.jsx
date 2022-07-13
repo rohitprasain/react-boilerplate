@@ -2,6 +2,7 @@ import React from 'react'
 import '../../assets/css/dealweek.css'
 import '../../assets/css/common.css'
 
+
 const DealWeek = () => {
   return (
     <div className='dealweek px-7'>

@@ -5,6 +5,7 @@ import '../../assets/css/navbar.css'
 import { FaSearch } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { FaBox } from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -17,11 +18,18 @@ const Navbar = () => {
         </div>
         <div className='nav-items flex align-center'>
             <ul className='flex'>
-                <li>Home</li>
-                <li>Shop</li>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/shop">Shop</Link>
+                </li>
+                <li>
+                  <Link to="/blog">Blog</Link>   
+                </li>
                 <li>Promotion</li>
                 <li>Pages</li>
-                <li>Blog</li>
+                
                 <li>Contact</li>
             </ul>
             <ul className='nav-user flex align-center '>
